@@ -16,6 +16,8 @@ shift
 
 gfind -iname "%FILE%" | xargs sed -i "s/%PATTERN%$/%TEMPLATE%/g"
 gfind -iname "%FILE%" | xargs sed -i "s/%PATTERN% /%TEMPLATE% /g"
+gfind -iname "%FILE%" | xargs sed -i "s/%PATTERN%)/%TEMPLATE%)/g"
+gfind -iname "%FILE%" | xargs sed -i "s/%PATTERN%}/%TEMPLATE%}/g"
 
 goto END
 
