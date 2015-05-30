@@ -7,4 +7,3 @@ rem autorun : REG_SZ = "...\dot-cmd.bat"
 
 doskey ls=ls --color=auto $*
 doskey ll=ls -l --color=auto $*
-echo Aliases installed from %~f0.
